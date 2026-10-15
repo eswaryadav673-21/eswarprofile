@@ -181,10 +181,79 @@ a {
     max-width: 260px;
     border-radius: 10px;
     padding: 16px;
+    background-color: skyblue;
 }
 
-.menu-card h1 {
+.skillcard h1 {
     font-size: 24px;
     color: #343f4b;
     margin-top: 10px;
+}
+
+.projects-card {
+    padding: 10px;
+
+}
+
+.projects-card h1 {
+    color: black;
+    padding: 10px;
+
+}
+
+.procards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24;
+}
+
+.projectscd {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: grey;
+    margin: 10px 10px;
+
+}
+
+.projectscd:hover {
+    background-color: white;
+    box-shadow: 0 5px 15px;
+    transform: scale(1.1);
+}
+
+.projectscd h1 {
+    font-size: 24px;
+    color: #343f4b;
+    margin-top: 5px;
+}
+
+.projectscd p {
+    font-size: 15px;
+
+}
+
+.projectscd a {
+    color: #d0b200;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.contact {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+}
+
+.contact h1 {
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+.contact p {
+    margin: 5px 5px;
 }
